@@ -1,4 +1,4 @@
-#Approximate Born Again Tree Ensembles
+# Approximate Born Again Tree Ensembles
 
 This repository contains the source code and data associated to the master's dissertation "Approximate Born Again Tree ensembles" (.pdf found in the root of this repository). This code is an expansion  from the work of Thibaut Vidal and Maximiliam Schiffer: 
 
@@ -70,7 +70,7 @@ Contributors to this code:
 * <a href="https://github.com/MatheusSuknaic" target="_blank">`Matheus Suknaic`</a>
 * <a href="https://github.com/mxschffr" target="_blank">`Maximiliam Schiffer`</a>
 * <a href="https://github.com/toni-tsp" target="_blank">`Toni Pacheco`</a>
-* <a href=" https://github.com/vidalt" target="_blank">`Thibaut Vidal`</a>
+* <a href="https://github.com/vidalt" target="_blank">`Thibaut Vidal`</a>
 
 ## License
 
