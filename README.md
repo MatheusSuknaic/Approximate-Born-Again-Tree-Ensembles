@@ -48,8 +48,8 @@ Available options:
 ```
 Examples: <br>
 `./bornAgain ../resources/forests/FICO/FICO.RF1.txt my_output_file`<br>
-`./bornAgain ../resources/forests/COMPAS-ProPublica/COMPAS-ProPublica.RF7.txt my_output_file -trees 30 -obj 5 -value 2 -depth 3<br>`
-`./bornAgain ../resources/forests/monks-1/monks-1.RF5.txt my_output_file -trees 21 -obj 4 -seed 89742 -samples 1000<br>`
+`./bornAgain ../resources/forests/COMPAS-ProPublica/COMPAS-ProPublica.RF7.txt my_output_file -trees 30 -obj 5 -value 2 -depth 3`<br>
+`./bornAgain ../resources/forests/monks-1/monks-1.RF5.txt my_output_file -trees 21 -obj 4 -seed 89742 -samples 1000`<br>
 
 ## Code Structure
 
