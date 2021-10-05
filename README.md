@@ -4,7 +4,7 @@ This repository contains the source code and data associated to the master's dis
 
 ``Vidal, T. and Schiffer, M. (2020). Born-again tree ensembles. In III, H. D. and Singh, A., editors, Proceedings of the 37th International Conference on Machine Learning, volume 119 of Proceedings of Machine Learning Research, pages 9743–9753. PMLR.``
 
-The source code from this paper can be found in <a href=https://github.com/vidalt/BA-Trees></a>. 
+The source code from this paper can be found in https://github.com/vidalt/BA-Trees. 
 
 ## Folder Structure
 
@@ -60,8 +60,8 @@ The algorithm is structured in the following way:
 * **RandomForest**: Creates the representation of a random forest (subclass of TreeEnsemble) and implements the sample classification criterium.
 * **Fspace**: Creates the representation of the tree ensemble's feature space (divided in cells) and, methods to classify and attribute value to the cells.
 * **BornAgain**: Displays the statistics and exports the constructed approximate born again tree.
-* **BornAgain_Exact**: Constructs the approximate born again tree from the ensemble using exact methods (inherited from BornAgain).
-* **BornAgain_Heuristic**: Constructs the approximate born again tree from the ensemble using heuristic methods (inherited from BornAgain).
+* **BornAgain_Regions**: Constructs the approximate born again tree from the ensemble using methods that rely on regions (a set of cells) (subclass of BornAgain).
+* **BornAgain_Samples**: Constructs the approximate born again tree from the ensemble using methods that rely on samples (subclass of BornAgain).
 * **Test**: Measures the adherence of the approximate born again tree compared to the original tree ensemble.
 
 ## Team
