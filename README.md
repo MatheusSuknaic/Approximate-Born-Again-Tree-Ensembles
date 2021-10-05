@@ -31,7 +31,7 @@ As a consequence, the call to the MIP solver to prove faithfulness of a region i
 To compile with CPLEX and guarantee faithfulness in the heuristic, make sure that CPLEX is installed in your system, adapt the makefile with the correct library path, and run the command "make withCPLEX=1".
 
 
-##Use of the C++ algorithm:
+## Use of the C++ algorithm:
 
 After compilation, the executable can be directly run on any input file representing a tree ensemble with the following command line:
 
