@@ -39,12 +39,12 @@ After compilation, the executable can be directly run on any input file represen
 Usage:
    ./bornAgain input_ensemble_path output_BAtree_path [list of options]
 Available options:
-  -trees X      Limits the number of trees read by the algorithm from the input file
-  -obj X	       Objective used in the algorithm: 0 = Depth ; 1 = NbLeaves ; 2 = Depth then NbLeaves ; 4 = Heuristic BA-Tree (defaults to 4); 5 = Approximate BA considering depth; 6 = Beam Search Heuristic; 7 = Greedy Heuristic
-  -seed X       Defines the random seed (defaults to 0)
-  -value X Cell value used in the algorithm: 0 = Same value; 1 = Volume; 2 = Empirical Measure
-  -depth X Maximum depth of the approximate BA tree
-  -samples Number of samples for the heuristic objective (obj = 4) 
+  -trees X        Limits the number of trees read by the algorithm from the input file
+  -obj X          Objective used in the algorithm: 0 = Depth ; 1 = NbLeaves ; 2 = Depth then NbLeaves ; 4 = Heuristic BA-Tree (defaults to 4); 5 = Approximate BA considering depth; 6 = Beam Search Heuristic; 7 = Greedy Heuristic
+  -seed X         Defines the random seed (defaults to 0)
+  -value X        Cell value used in the algorithm: 0 = Same value; 1 = Volume; 2 = Empirical Measure
+  -depth X        Maximum depth of the approximate BA tree
+  -samples        Number of samples for the heuristic objective (obj = 4) 
 ```
 Examples: <br>
 `./bornAgain ../resources/forests/FICO/FICO.RF1.txt my_output_file`<br>
