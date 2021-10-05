@@ -24,7 +24,7 @@ src<br>      |-------born_again_dp<br>     |-------resources<br>
 
 ## Installation
 
-* Run the make command: `make` on the folder src\born_again_dp. This requires the availability of the g++ compiler.<br> 
+Run the make command: `make` on the folder src\born_again_dp. This requires the availability of the g++ compiler.<br> 
 
 By default, the simple makefile provided in this project does not link with CPLEX to facilitate installation and portability.
 As a consequence, the call to the MIP solver to prove faithfulness of a region in the heuristic BA-tree is deactivated (USING_CPLEX = false).
